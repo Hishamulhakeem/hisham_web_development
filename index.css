@@ -1,0 +1,133 @@
+/* Carousel Styling */
+.slider-title, .title2, .title3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.slider-text, .text2, .text3 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.button-round-white, .button-round-white2, .button-round-white3 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* Jumbotron Styling */
+.jumbotron-display {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    text-align: center;
+}
+
+.jumbotron-title {
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.button-round-black {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* Product Photo Link Grid */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.bottom-left-products {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.products-info {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+    font-size: 1em;
+}
+
+/* Our Store Section */
+.our-store-section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+
+.button-shop {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* Review Section */
+.background {
+    background-color: #f8f9fa;
+}
+
+.publications-section {
+    padding: 2rem;
+}
+
+.publications-title {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+
+.publications-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styling */
+footer {
+    padding: 2rem 0;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+    }
+    to {
+        text-shadow: 0 0 20px #ffffff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+    }
+}
+

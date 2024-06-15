@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: whitesmoke;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+    min-height:20%;
+    text-align: center;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+}
+
+.header > span {
+    margin: 30px;
+}
+ 
+
+.productContainer{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    max-width: 70%;
+    height: auto;
+}
+
+
+.productParent{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    min-height: 50px;
+    background-color: white;
+    /* border: 1px solid green; */
+}
+
+.productLogo{
+    width: 100%;
+    height:100%;
+
+}
+
+.productImg{
+    cursor: pointer;
+    width: 100%;
+    height:100%;
+    transition-duration:.4s ;
+}
+
+.productImg:hover{
+    transform:translateY(-8px);
+}
+
+
+.productName{
+    padding:10px 0 0 -50px;
+    width: 90%;
+    text-align:start;
+}
+
+.stars{
+    color: rgb(105, 105, 231);
+    padding:10px;
+    width: 90%;
+    text-align: left;
+}
+
+.explanation{
+    padding:10px;
+    width: 90%;
+    text-align: left;
+}
+
+.price{
+    padding:10px;
+    width: 90%;
+    text-align: left;
+}
+
+/*  -----------------------------------TANITIM BÖLÜMÜ-------------------------------------- */
+
+.promotionContainer{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black;  */
+    max-width: 70%;
+    height: auto;
+}
+
+.gridContainer{
+    display:grid;
+    margin:100px auto;
+    /* border:1px solid black; */
+    width:100%;
+    height:900px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    gap:5px;
+  }
+  
+  .grid1{
+    border:1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end: 6;
+    background-image: url("http://wasabi-files.lbstatic.nu/files/looks/large/2017/12/09/5288718_Jaeger_1-5.jpg?1512832081");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    text-align: center;
+    gap: 30px;
+
+  }
+
+  .buybtn{
+    margin:0 0 50px 0 ;
+    width: 100px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    transition-duration: .4s;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .buybtn:hover{
+    background-color: rgb(24, 129, 94);
+  }
+  
+  .grid2{
+    border:1px solid black;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end: 3;
+    background-image: url("https://www.usmagazine.com/wp-content/uploads/2021/09/fall-boots-booties.jpg?w=1200&quality=86&strip=all");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    text-align: center;
+    gap: 30px;
+
+  }
+  
+  .grid3{
+    border:1px solid black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: 6;
+    background-color:#FFA500 ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    text-align: center;
+    gap: 30px;
+
+  }
+  
+  .grid4{
+    border:1px solid black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3;
+    grid-row-end: 6;
+    background-color: #1E90FF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    text-align: center;
+    gap: 30px;
+
+  }
+
+  .gridImg{
+    width: 100%;
+    height: 100%;
+  }
+

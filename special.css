@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    transition: background-color 0.2s;
+  }
+  
+  body {
+    background-color: #8850FF;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+  .card {
+    flex: 0 0 100%;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-out;
+    margin: 20px; /* Add margin to provide some space around the card */
+  }
+  
+  .card__header {
+    padding: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: #fff;
+    position: relative;
+  }
+  
+  .card__header--19 {
+    background: linear-gradient(#F72648, #FCCB3C);
+  }
+  
+  .card__header--solstice {
+    background: linear-gradient(#3CA3FC, #FFD300);
+  }
+  
+  .card__header--huarache {
+    background: linear-gradient(#26C9F7, #DFFC3C);
+  }
+  
+  .card__watermark {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card__watermark::after {
+    content: attr(data-watermark);
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 240px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card__logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .card__price {
+    float: right;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .card__title {
+    margin: 35px 0 20px;
+    font-size: 15px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .card__subtitle {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  
+  .card__body {
+    padding: 40px 30px 20px;
+    position: relative; /* Ensure relative positioning for the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height as needed to properly center the image */
+  }
+  
+  .card__image {
+    width: 80%; /* Adjust width to fit within the padding */
+  }
+  
+  .card__wish-list {
+    display: block;
+    width: 50%;
+    margin: 0 auto 15px;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .card__wish-list--19 {
+    color: #8850FF;
+    border-color: #8850FF;
+  }
+  
+  .card__wish-list--solstice {
+    color: #FFBA00;
+    border-color: #FFBA00;
+  }
+  
+  .card__wish-list--huarache {
+    color: #26C9F7;
+    border-color: #26C9F7;
+  }
+  
+  .card__category {
+    font-size: 12px;
+    color: #AEAEAE;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .cards-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .cards-placeholder__item {
+    opacity: 0.3;
+    margin: 0 10px;
+    background-color: #fff;
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    transition: opacity 0.2s;
+  }
+  
+  .cards-placeholder__item--active {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+/* Add a purple background color to the top navigation */
+.topnav {
+    background-color: purple;
+    overflow: hidden;
+    height: 50px;
+}
+
+/* Shoe Selection title */
+.headingTitle {
+    font-size: 50px;
+    font-style: italic;
+    color: purple;
+}
+
+.shoe {
+    margin: 40px 0;
+}
+
+.row {
+    font-size: 30px;
+    color: purple;
+}
+
+/* Additional styles for the product cards */
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.thumbnail {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.col-sm-4 {
+    display: inline-block;
+    width: 30%;
+    margin-right: 1.5%;
+}
